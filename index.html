@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- <ul>
+        <li>&#8594;</li>
+        <li><button>Aditya</button></li>
+        <li>&#8592;</li>
+    </ul> -->
+
+    <!-- <h1 class="text-center text-red-600 underline font-black text-9xl shadow-2xl ">Hello</h1> -->
+<div class="flex  flex-col sm:flex-row sm:items-center  h-screen gap-5 p-5  ">
+    <img class="w-1/2" src="./AKV_0098.JPG">
+    
+    <form>
+        <form class='flex w-full sm:w-1/2 gap-5  flex-col'>
+            <h1 class="text-2xl">Devotee Registration Form</h1>
+
+            
+            <label class="font-thin">Name: 
+                <input class="border p-2 w-full shadow-md" type="text" />
+            </label>
+            <label class="font-thin">Age of the Devotee: 
+                <input class="border p-2 shadow-md w-full" type="number" />
+            </label>
+            <label class="font-thin">Address:
+                <input class="border p-2 shadow-md w-full" type="text" />
+            </label>
+            <label class="font-thin">DOB:
+                    <input class="p-2 shadow-md w-full" type="date" p-2 id="birthdate" name="birthdate" type="text" required>
+            </label>
+
+            <label>Gender:</label>
+            <select class="p-2  w-full shadow-md " required>
+                
+                <option value="Male">Choose the Gender</option>
+            <option value="Male">Male</option>
+            <option value="female">Female</option>
+
+        </select>
+
+            <label>Mob. No.:
+                <input class="border p-2 shadow-md w-full" type="tel" id="phone" name="phone"  pattern="[0-9]{10}" type="number" required>
+            </label>
+
+                <input class="bg-blue-500 hover:shadow-xl p-2 shadow-md w-full hover:bg-black cursor-pointer text-white rounded-md py-2" type="submit" />
+        
+    </form> 
+    
+
+</div>
+
+</body>
+</html>
